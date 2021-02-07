@@ -1,0 +1,170 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+    <head> 
+        
+        <meta charset="utf-8" /> 
+        <!-- Required CDN's -->
+        
+        <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="style.css">
+        
+        <script src=  "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script> 
+        <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> </script> 
+        
+    </head> 
+
+    <body> 
+
+        <div class="row"> 
+            <div class="col-sm-2 col-md-4"> </div>
+             
+            <div class="col-sm-8 col-md-4"> 
+                
+                <!-- Calculator UI -->
+                <br> 
+                <h1> <center> <em> My Calculator </em> </center> </h1>
+                <br> 
+                <br> 
+                <br> 
+                
+                <div class="container calculator"> 
+                    
+                    <div class="form-input"> 
+                        <input type="text" 
+                               class="form-control input-lg" 
+                               id="expression" 
+                               value="0" 
+                               disabled> 
+                        <input type="text" 
+                               class="form-control input-xs"
+                               id="result"
+                               value="0"
+                               disabled> 
+                    </div> 
+                    
+                    <br> 
+                    <br> 
+                    
+                    <div class="container-fluid"> 
+                        
+                        <div class="row"> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">1</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">2</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">3</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design sign"> + </div> 
+                            </div> 
+                            
+                        </div> 
+                        
+                        
+                        <div class="row"> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">4</div> 
+                            </div>
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">5</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">6</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design sign"> - </div> 
+                            </div> 
+                            
+                        </div>
+                        
+                        
+                        <div class="row"> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">7</div> 
+                            </div>
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">8</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">9</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design sign"> * </div>
+                            </div> 
+                            
+                        </div> 
+                        
+                        
+                        <div class="row"> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">0</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design">.</div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design not"
+                                     id="backspace"> Del </div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design sign"> / </div> 
+                            </div> 
+                            
+                        </div> 
+                        
+                         
+                        <div class="row"> 
+                             
+                            <div class="col-sm-3"> 
+                                <div class="design down"> ( </div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design down" > ) </div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design AC" id="allClear"> AC </div> 
+                            </div> 
+                            
+                            <div class="col-sm-3"> 
+                                <div class="design equal" id="equals"> = </div> 
+                            </div> 
+
+                        </div> 
+                        
+                    </div> 
+                    
+                </div>
+                
+            </div>
+            
+            <div class="col-sm-2 col-md-4"> </div> 
+            
+        </div> 
+        
+        <script src="JavaScript.js"> </script> 
+        
+    </body> 
+  
+</html>
